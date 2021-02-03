@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.ModificarObservacion" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <include android:id="@+id/miActionBar" layout="@layout/actionbar"></include>
+
+        <TextView
+            android:id="@+id/tituloModificarId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:text="Modificar una observación"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:textColor="@color/colorNegro"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/id2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="ID de la observación"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/descripcion2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="Descripcion"
+            android:inputType="textMultiLine"
+            android:lines="5" />
+
+        <EditText
+            android:id="@+id/fecha2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="Fecha de la observación" />
+
+        <TextView
+            android:id="@+id/tvLLA2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Coordenadas (Modificar de ser necesario)"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            android:textColor="@color/colorNegro"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/latitud2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:hint="Latitud"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/longitud2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:hint="Longitud"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/altitud2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:hint="Altitud"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/tvNC2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="20dp"
+            android:text="Elegir Nivel Crítico"
+            android:textAlignment="center"
+            android:textColor="@color/colorNegro"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/NivelCritico2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:padding="20dp"
+            android:spinnerMode="dialog"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/tvF2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="20dp"
+            android:text="Elegir Fenómeno"
+            android:textAlignment="center"
+            android:textColor="@color/colorNegro"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/Fenomeno2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:padding="20dp"
+            android:spinnerMode="dialog"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/tvL2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="20dp"
+            android:text="Elegir Localidad"
+            android:textAlignment="center"
+            android:textColor="@color/colorNegro"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/Localidad2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:padding="20dp"
+            android:spinnerMode="dialog"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/tvU2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="20dp"
+            android:text="Elegir Usuario"
+            android:textAlignment="center"
+            android:textColor="@color/colorNegro"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/Usuario2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:padding="20dp"
+            android:spinnerMode="dialog"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/BotonSiguiente2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Siguiente"
+            android:theme="@style/Boton" />
+
+    </LinearLayout>
+</ScrollView>

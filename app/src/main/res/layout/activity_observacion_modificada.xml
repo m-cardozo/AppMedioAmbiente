@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.ObservacionModificada" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <include android:id="@+id/miActionBar" layout="@layout/actionbar"></include>
+
+        <TextView
+            android:id="@+id/lblIdObservacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="10dp"
+            android:text="ID"
+            android:textColor="@color/colorNegro"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/lblIdObservacionValor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:padding="5dp" />
+
+        <TextView
+            android:id="@+id/lblDescripcion2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Descripción "
+            android:textColor="@color/colorNegro"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/lblDescripcionValor2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:padding="5dp" />
+
+        <TextView
+            android:id="@+id/lblFecha2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Fecha"
+            android:textColor="@color/colorNegro"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/lblFechaValor2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:padding="5dp" />
+
+        <TextView
+            android:id="@+id/lblGeoLatitud2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Latitud"
+            android:textColor="@color/colorNegro"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/lblGeoLatitudValor2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:padding="5dp" />
+
+        <TextView
+            android:id="@+id/lblGeoLongitud2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Longitud"
+            android:textColor="@color/colorNegro"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/lblGeoLongitudValor2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:padding="5dp" />
+
+        <TextView
+            android:id="@+id/lblGeoAltitud2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Altitud"
+            android:textColor="@color/colorNegro"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/lblGeoAltitudValor2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:padding="5dp" />
+
+        <TextView
+            android:id="@+id/lblCriticidad2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Nivel Critico "
+            android:textColor="@color/colorNegro"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/lblCriticidadValor2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:padding="5dp" />
+
+        <TextView
+            android:id="@+id/lblFenomeno2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Fenómeno "
+            android:textColor="@color/colorNegro"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/lblFenomenoValor2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:padding="5dp" />
+
+        <TextView
+            android:id="@+id/lblLocalidad2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Localidad "
+            android:textColor="@color/colorNegro"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/lblLocalidadValor2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:padding="5dp" />
+
+        <TextView
+            android:id="@+id/lblIdusuario2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Id usuario "
+            android:textColor="@color/colorNegro"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/lblIdusuarioValor2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:padding="5dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="10dp" >
+
+            <Button
+                android:id="@+id/BotonEditar2"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:onClick="editarObservacionModificada"
+                android:text="Editar observación"
+                android:theme="@style/Boton" />
+
+            <Button
+                android:id="@+id/BotonVolver2"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:layout_toEndOf="@id/BotonEditar2"
+                android:text="Confirmar"
+                android:theme="@style/Boton" />
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/BotonMenu2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="10dp"
+            android:text="Volver al menu"
+            android:onClick="volverMenu"
+            android:theme="@style/Boton" />
+
+    </LinearLayout>
+</ScrollView>
